@@ -10,8 +10,8 @@ tags:
 - Stack Network
 - Federal Government   GSA
 - Environment
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/dates/master/_listings/sustainable-facilities-tool-api/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -24,7 +24,7 @@ apis:
   tags: Dates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/dates/master/_listings/sustainable-facilities-tool-api/building-systems-parameter-mandates-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/dates/master/_listings/sustainable-facilities-tool-api/building-systems-mandates-get.md
 x-common:
 - type: x-developer
   url: https://sftool.gov/developers
