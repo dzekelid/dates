@@ -14,9 +14,9 @@ tags:
 - Links
 - Indie EdTech Data Jam
 - Bookmarks
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/dates/master/_listings/pinboard/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/pinboard/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Pinboard
@@ -27,7 +27,7 @@ apis:
   tags: Dates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/dates/master/_listings/pinboard/posts-dates-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/pinboard/posts-dates-get.md
 x-common:
 - type: x-base
   url: https://api.pinboard.in
