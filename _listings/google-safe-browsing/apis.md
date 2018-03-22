@@ -14,9 +14,9 @@ tags:
 - Privacy
 - Links
 - Google APIs
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/dates/master/_listings/google-safe-browsing/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/google-safe-browsing/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Safe Browsing API
@@ -28,7 +28,7 @@ apis:
   tags: Dates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/dates/master/_listings/google-safe-browsing/v4-encodedupdates-encodedrequest-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/google-safe-browsing/v4-encodedupdates-encodedrequest-get.md
 x-common:
 - type: x-documentation
   url: https://developers.google.com/safe-browsing/v4/
