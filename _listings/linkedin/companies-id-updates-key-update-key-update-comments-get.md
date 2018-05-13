@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: LinkedIn
-  description: Bring user profiles and professional networks to your apps.
+  title: LinkedIn Get Companies Updates Key Update Key Update Comments
+  description: Get companies  updates key update key update comments
   version: 1.0.0
 host: api.linkedin.com
 basePath: /v1
