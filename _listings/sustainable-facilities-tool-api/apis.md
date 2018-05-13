@@ -25,17 +25,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/sustainable-facilities-tool-api/building-systems-parameter-mandates-get.md
-- name: Sustainable Facilities Tool API Building System Mandates
-  description: Returns all building systems mandates
+- name: Sustainable Facilities Tool API Building System Mandate
+  description: Returns a building system mandate by parameter.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sustainable-facilities-mobile_504b7.png
   humanURL: https://sftool.gov/
   baseURL: https://api.data.gov//sftool/v1/
   tags: Dates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/sustainable-facilities-tool-api/building-systems-mandates-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/sustainable-facilities-tool-api/building-systems-parameter-mandates-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/sustainable-facilities-tool-api/building-systems-mandates-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/sustainable-facilities-tool-api/building-systems-parameter-mandates-get-postman.md
 x-common:
 - type: x-developer
   url: https://sftool.gov/developers
