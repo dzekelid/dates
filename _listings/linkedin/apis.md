@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/linkedin/companies-id-updates-key-update-key-likes-get.md
-- name: LinkedIn Get Companies Updates Key Update Key
-  description: Get companies  updates key update key
+- name: LinkedIn Get Companies Updates Key Update Key Update Comments
+  description: Get companies  updates key update key update comments
   image: https://avatars.githubusercontent.com/u/357098?v=3
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1
   tags: Dates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/linkedin/companies-id-updates-key-update-key-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/linkedin/companies-id-updates-key-update-key-update-comments-get.md
 x-common:
 - type: x-authentication
   url: https://developer.linkedin.com/documents/authentication
