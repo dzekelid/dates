@@ -29,7 +29,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/google-safe-browsing/v4-encodedupdates-encodedrequest-get.md
+- name: Google Safe Browsing API Encoded Updates
+  description: Encoded Updates
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/SafeBrowsing_Icon.png
+  humanURL: https://developers.google.com/safe-browsing/
+  baseURL: http:://safebrowsing.googleapis.com//
+  tags: Dates
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/google-safe-browsing/v4-encodedupdates-encodedrequest-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/google-safe-browsing/v4-encodedupdates-encodedrequest-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://developers.google.com/safe-browsing/v4/
+- type: x-forum
+  url: http://groups.google.com/group/google-safe-browsing-api
+- type: x-getting-started
+  url: https://developers.google.com/safe-browsing/v4/get-started
+- type: x-website
+  url: https://developers.google.com/safe-browsing/
 - type: x-documentation
   url: https://developers.google.com/safe-browsing/v4/
 - type: x-forum
