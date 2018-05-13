@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Pinboard
-  description: Store, manage and share bookmarks on Pinboard
+  title: Pinboard Get Post by Dates
+  description: Returns a list of dates with the number of posts at each date.
   version: 1.0.0
 host: api.pinboard.in
 basePath: /v1
