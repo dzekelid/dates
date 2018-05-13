@@ -28,7 +28,40 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/pinboard/posts-dates-get.md
+- name: Pinboard Get Post by Dates
+  description: Returns a list of dates with the number of posts at each date.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pinboard-icon.png
+  humanURL: http://www.pinboard.in
+  baseURL: https://api.pinboard.in//v1
+  tags: Dates
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/pinboard/posts-dates-get.md
 x-common:
+- type: x-base
+  url: https://api.pinboard.in
+- type: x-blog
+  url: http://www.pinboard.in/blog/
+- type: x-blog-rss
+  url: https://blog.pinboard.in/feed/
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/pinboard
+- type: x-developer
+  url: https://pinboard.in/api
+- type: x-github
+  url: https://github.com/pinboard
+- type: x-pricing
+  url: https://www.pinboard.in/about/
+- type: x-privacy
+  url: https://www.pinboard.in/privacy/
+- type: x-security
+  url: https://www.pinboard.in/security/
+- type: x-terms-of-service
+  url: https://www.pinboard.in/tos/
+- type: x-twitter
+  url: https://twitter.com/pinboard
+- type: x-website
+  url: http://www.pinboard.in
 - type: x-base
   url: https://api.pinboard.in
 - type: x-blog
