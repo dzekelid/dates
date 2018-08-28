@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Pinboard
 x-complete: 1
@@ -27,4 +26,3 @@ paths:
       tags:
       - Posts
       - Dates
----

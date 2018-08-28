@@ -7,11 +7,41 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Dates
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/gig--crowd/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: GIG & Crowd - Post Request Art Accept Performancedate
+  x-api-slug: apiv1requestartacceptperformancedate-post
+  description: Post request art accept performancedate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/gig--crowd/apiv1requestartacceptperformancedate-post-openapi.md
+- name: GIG & Crowd - Post Request Art Reject Performancedate
+  x-api-slug: apiv1requestartrejectperformancedate-post
+  description: Post request art reject performancedate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/gig--crowd/apiv1requestartrejectperformancedate-post-openapi.md
+- name: GIG & Crowd - Post Request Performancedate
+  x-api-slug: apiv1requestperformancedate-post
+  description: Post request performancedate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/gig--crowd/apiv1requestperformancedate-post-openapi.md
 x-common:
 - type: x-openapi
   url: https://gigandcrowd.com/swagger/docs/v1

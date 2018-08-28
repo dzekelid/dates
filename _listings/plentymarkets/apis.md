@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Dates
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
@@ -115,6 +115,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdatesid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdatesid-get-openapi.md
+- name: plentymarkets REST-API - Update a date of an order item
+  x-api-slug: restordersitemsdatesid-put
+  description: Updates a date of an order item. The ID of the date must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdatesid-put-openapi.md
 - name: plentymarkets REST-API - Delete a date from an order item by order item and
     date type
   x-api-slug: restordersitemsorderitemiddatestypeid-delete
@@ -129,6 +139,121 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-delete-openapi.md
+- name: plentymarkets REST-API - Get a date of an order item by order item and date
+    type
+  x-api-slug: restordersitemsorderitemiddatestypeid-get
+  description: Gets a date of an order item. The ID of the order item and the ID of
+    the date type must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-get-openapi.md
+- name: plentymarkets REST-API - Create a date for an order item by order item and
+    date type
+  x-api-slug: restordersitemsorderitemiddatestypeid-post
+  description: Creates a date for an order item. The ID of the order item and the
+    ID of the date type must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-post-openapi.md
+- name: plentymarkets REST-API - Update a date of an order item by order item and
+    date type
+  x-api-slug: restordersitemsorderitemiddatestypeid-put
+  description: Updates the date of an order item. The ID of the order item and the
+    ID of the date type must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-put-openapi.md
+- name: plentymarkets REST-API - Get a date
+  x-api-slug: restordersorderiddatestypeid-get
+  description: Gets a date. The ID of the order and the ID of the date type must be
+    specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersorderiddatestypeid-get-openapi.md
+- name: plentymarkets REST-API - List payments by entry date
+  x-api-slug: restpaymentsentrydate-get
+  description: Lists all payments by entry date within a certain date range. The start
+    and the end of the date range must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restpaymentsentrydate-get-openapi.md
+- name: plentymarkets REST-API - List payments by import date
+  x-api-slug: restpaymentsimportdate-get
+  description: Lists all payments by import date within a certain date range. The
+    start and the end of the date range must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restpaymentsimportdate-get-openapi.md
+- name: plentymarkets REST-API - List properties by creation date
+  x-api-slug: restpaymentspropertiesdate-get
+  description: Lists all properties by creation date. The start and the end of the
+    date range must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restpaymentspropertiesdate-get-openapi.md
+- name: plentymarkets REST-API - Create a date for an order item
+  x-api-slug: restordersitemsdates-post
+  description: Creates a date for an order item. The ID of the order item must be
+    specified
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdates-post-openapi.md
+- name: plentymarkets REST-API - Create a date for an order item by order item and
+    date type
+  x-api-slug: restordersitemsorderitemiddatestypeid-post
+  description: Creates a date for an order item. The ID of the order item and the
+    ID of the date type must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-post-openapi.md
+- name: plentymarkets REST-API - List order date types
+  x-api-slug: restordersdatestypes-get
+  description: List order date types.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersdatestypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersdatestypes-get-openapi.md
 - name: plentymarkets REST-API - Find an order date type by it's ID
   x-api-slug: restordersdatestypestypeid-get
   description: Find an order date type by it's id.
@@ -154,6 +279,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersdatestypestypeidnames-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersdatestypestypeidnames-get-openapi.md
+- name: plentymarkets REST-API - Get a name of an order date type
+  x-api-slug: restordersdatestypestypeidnameslang-get
+  description: Gets a name of an order date type. The ID of the date type and the
+    language of the name must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersdatestypestypeidnameslang-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersdatestypestypeidnameslang-get-openapi.md
 - name: plentymarkets REST-API - Delete a date from an order item
   x-api-slug: restordersitemsdatesid-delete
   description: Deletes the date from an order item. The ID of the date must be specified.
@@ -166,6 +304,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdatesid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdatesid-delete-openapi.md
+- name: plentymarkets REST-API - Get a date of an order item
+  x-api-slug: restordersitemsdatesid-get
+  description: Gets a date of an order item. The ID of the date must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdatesid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdatesid-get-openapi.md
+- name: plentymarkets REST-API - Update a date of an order item
+  x-api-slug: restordersitemsdatesid-put
+  description: Updates a date of an order item. The ID of the date must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdatesid-put-openapi.md
 - name: plentymarkets REST-API - Delete a date from an order item by order item and
     date type
   x-api-slug: restordersitemsorderitemiddatestypeid-delete
@@ -180,6 +340,310 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-delete-openapi.md
+- name: plentymarkets REST-API - Get a date of an order item by order item and date
+    type
+  x-api-slug: restordersitemsorderitemiddatestypeid-get
+  description: Gets a date of an order item. The ID of the order item and the ID of
+    the date type must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-get-openapi.md
+- name: plentymarkets REST-API - Create a date for an order item by order item and
+    date type
+  x-api-slug: restordersitemsorderitemiddatestypeid-post
+  description: Creates a date for an order item. The ID of the order item and the
+    ID of the date type must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-post-openapi.md
+- name: plentymarkets REST-API - Update a date of an order item by order item and
+    date type
+  x-api-slug: restordersitemsorderitemiddatestypeid-put
+  description: Updates the date of an order item. The ID of the order item and the
+    ID of the date type must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-put-openapi.md
+- name: plentymarkets REST-API - Get a date
+  x-api-slug: restordersorderiddatestypeid-get
+  description: Gets a date. The ID of the order and the ID of the date type must be
+    specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersorderiddatestypeid-get-openapi.md
+- name: plentymarkets REST-API - List payments by entry date
+  x-api-slug: restpaymentsentrydate-get
+  description: Lists all payments by entry date within a certain date range. The start
+    and the end of the date range must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restpaymentsentrydate-get-openapi.md
+- name: plentymarkets REST-API - List payments by import date
+  x-api-slug: restpaymentsimportdate-get
+  description: Lists all payments by import date within a certain date range. The
+    start and the end of the date range must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restpaymentsimportdate-get-openapi.md
+- name: plentymarkets REST-API - List properties by creation date
+  x-api-slug: restpaymentspropertiesdate-get
+  description: Lists all properties by creation date. The start and the end of the
+    date range must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restpaymentspropertiesdate-get-openapi.md
+- name: plentymarkets REST-API - Create a date for an order item
+  x-api-slug: restordersitemsdates-post
+  description: Creates a date for an order item. The ID of the order item must be
+    specified
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdates-post-openapi.md
+- name: plentymarkets REST-API - Create a date for an order item by order item and
+    date type
+  x-api-slug: restordersitemsorderitemiddatestypeid-post
+  description: Creates a date for an order item. The ID of the order item and the
+    ID of the date type must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-post-openapi.md
+- name: plentymarkets REST-API - List properties by creation date
+  x-api-slug: restpaymentspropertiesdate-get
+  description: Lists all properties by creation date. The start and the end of the
+    date range must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restpaymentspropertiesdate-get-openapi.md
+- name: plentymarkets REST-API - List payments by import date
+  x-api-slug: restpaymentsimportdate-get
+  description: Lists all payments by import date within a certain date range. The
+    start and the end of the date range must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restpaymentsimportdate-get-openapi.md
+- name: plentymarkets REST-API - List payments by entry date
+  x-api-slug: restpaymentsentrydate-get
+  description: Lists all payments by entry date within a certain date range. The start
+    and the end of the date range must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restpaymentsentrydate-get-openapi.md
+- name: plentymarkets REST-API - Get a date
+  x-api-slug: restordersorderiddatestypeid-get
+  description: Gets a date. The ID of the order and the ID of the date type must be
+    specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersorderiddatestypeid-get-openapi.md
+- name: plentymarkets REST-API - Update a date of an order item by order item and
+    date type
+  x-api-slug: restordersitemsorderitemiddatestypeid-put
+  description: Updates the date of an order item. The ID of the order item and the
+    ID of the date type must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-put-openapi.md
+- name: plentymarkets REST-API - Create a date for an order item by order item and
+    date type
+  x-api-slug: restordersitemsorderitemiddatestypeid-post
+  description: Creates a date for an order item. The ID of the order item and the
+    ID of the date type must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-post-openapi.md
+- name: plentymarkets REST-API - Get a date of an order item by order item and date
+    type
+  x-api-slug: restordersitemsorderitemiddatestypeid-get
+  description: Gets a date of an order item. The ID of the order item and the ID of
+    the date type must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-get-openapi.md
+- name: plentymarkets REST-API - Delete a date from an order item by order item and
+    date type
+  x-api-slug: restordersitemsorderitemiddatestypeid-delete
+  description: Deletest a date from an order item. The ID of the order item and the
+    ID of the date type must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-delete-openapi.md
+- name: plentymarkets REST-API - Update a date of an order item
+  x-api-slug: restordersitemsdatesid-put
+  description: Updates a date of an order item. The ID of the date must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdatesid-put-openapi.md
+- name: plentymarkets REST-API - Get a date of an order item
+  x-api-slug: restordersitemsdatesid-get
+  description: Gets a date of an order item. The ID of the date must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdatesid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdatesid-get-openapi.md
+- name: plentymarkets REST-API - Delete a date from an order item
+  x-api-slug: restordersitemsdatesid-delete
+  description: Deletes the date from an order item. The ID of the date must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdatesid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdatesid-delete-openapi.md
+- name: plentymarkets REST-API - Get a name of an order date type
+  x-api-slug: restordersdatestypestypeidnameslang-get
+  description: Gets a name of an order date type. The ID of the date type and the
+    language of the name must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersdatestypestypeidnameslang-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersdatestypestypeidnameslang-get-openapi.md
+- name: plentymarkets REST-API - List names of an order date type
+  x-api-slug: restordersdatestypestypeidnames-get
+  description: Lists names in all languages available of an order date type. The ID
+    of the date type must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersdatestypestypeidnames-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersdatestypestypeidnames-get-openapi.md
+- name: plentymarkets REST-API - Find an order date type by it's ID
+  x-api-slug: restordersdatestypestypeid-get
+  description: Find an order date type by it's id.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersdatestypestypeid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersdatestypestypeid-get-openapi.md
+- name: plentymarkets REST-API - List order date types
+  x-api-slug: restordersdatestypes-get
+  description: List order date types.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersdatestypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersdatestypes-get-openapi.md
+- name: plentymarkets REST-API - Create a date for an order item by order item and
+    date type
+  x-api-slug: restordersitemsorderitemiddatestypeid-post
+  description: Creates a date for an order item. The ID of the order item and the
+    ID of the date type must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsorderitemiddatestypeid-post-openapi.md
+- name: plentymarkets REST-API - Create a date for an order item
+  x-api-slug: restordersitemsdates-post
+  description: Creates a date for an order item. The ID of the order item must be
+    specified
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/plentymarkets/restordersitemsdates-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1

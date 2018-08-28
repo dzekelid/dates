@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-stee
 x-kinRank: "7"
 x-alexaRank: "138048"
 tags: Dates
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/steem/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Interactive Steem API - get_discussions_by_author_before_date
+  x-api-slug: get-discussions-by-author-before-date-get
+  description: get_discussions_by_author_before_date
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg
+  humanURL: http://steemit.com
+  baseURL: https://api.steemjs.com//
+  tags: Technology, SaaS, Blockchain, Content
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/steem/get-discussions-by-author-before-date-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/steem/get-discussions-by-author-before-date-get-openapi.md
 - name: Interactive Steem API - get_discussions_by_author_before_date
   x-api-slug: get-discussions-by-author-before-date-get
   description: get_discussions_by_author_before_date

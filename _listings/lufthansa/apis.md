@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-p
 x-kinRank: "7"
 x-alexaRank: "3886"
 tags: Dates
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/lufthansa/apis.md
 specificationVersion: "0.14"
 apis:
@@ -86,6 +86,43 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/lufthansa/operationsflightstatusflightnumberdate-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/lufthansa/operationsflightstatusflightnumberdate-get-openapi.md
+- name: LH Public - Flight Status
+  x-api-slug: operationsflightstatusflightnumberdate-get
+  description: Status of a particular flight (boarding, delayed, etc.).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg
+  humanURL: http://lufthansa.com
+  baseURL: https://api.lufthansa.com//v1
+  tags: Airlines, API Provider, Profiles, General Data, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/lufthansa/operationsflightstatusflightnumberdate-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/lufthansa/operationsflightstatusflightnumberdate-get-openapi.md
+- name: LH Public - Flight Status by Route
+  x-api-slug: operationsflightstatusrouteorigindestinationdate-get
+  description: Status of flights between a given origin and destination on a given
+    date.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg
+  humanURL: http://lufthansa.com
+  baseURL: https://api.lufthansa.com//v1
+  tags: Airlines, API Provider, Profiles, General Data, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/lufthansa/operationsflightstatusrouteorigindestinationdate-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/lufthansa/operationsflightstatusrouteorigindestinationdate-get-openapi.md
+- name: LH Public - Seat Maps
+  x-api-slug: offersseatmapsflightnumberorigindestinationdatecabinclass-get
+  description: Cabin layout and seat characteristics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg
+  humanURL: http://lufthansa.com
+  baseURL: https://api.lufthansa.com//v1
+  tags: Airlines, API Provider, Profiles, General Data, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/lufthansa/offersseatmapsflightnumberorigindestinationdatecabinclass-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/lufthansa/offersseatmapsflightnumberorigindestinationdatecabinclass-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://lota.data.api.gallery.streamdata.io

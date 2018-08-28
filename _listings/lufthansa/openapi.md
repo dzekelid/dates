@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Lufthansa
 x-complete: 1
@@ -120,4 +119,3 @@ paths:
       - Flightstatus
       - FlightNumber
       - Date
----

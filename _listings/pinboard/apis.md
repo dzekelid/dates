@@ -9,11 +9,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboa
 x-kinRank: "9"
 x-alexaRank: "45688"
 tags: Dates
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/pinboard/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Pinboard - Get Post by Dates
+  x-api-slug: postsdates-get
+  description: Returns a list of dates with the number of posts at each date.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg
+  humanURL: http://pinboard.in
+  baseURL: https://api.pinboard.in//v1
+  tags: Bookmarks, Links, My API Stack, Indie EdTech Data Jam, Stack Network, Stack,
+    Technology, internet, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/pinboard/postsdates-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://payrun.api.gallery.streamdata.io

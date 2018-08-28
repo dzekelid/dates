@@ -12,11 +12,71 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Dates
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/onsched/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: OnSched API - Returns a list of customer booking limits.
+  x-api-slug: consumerv1customersidplanlimitsserviceidresourceiddatetimetz-get
+  description: "The result returned is list of limit rules as defined by the subscribed
+    customer plan along with Booking Counts/Minutes\r\nThe results indicate the remaining
+    bookings count / minutes. Use the results in your app to determine if the customer
+    should continue booking.\r\nYou can enforce Limits in periods: Daily,Weekly,Monthly
+    and for maximum total limits. Maximum total limits is based on six months prior
+    to\r\nthe DateTimeTz and six months after the DateTimeTz. Daily, Weekly and Monthly
+    limits are based on the calculated period relative to the\r\nsubscription plan
+    start. Daily,Weekly and Monthly limits can be setup on a per interval basis e.g.
+    to biweekly, or daily every 10 days.\r\nSee customer plans setup in the Portal
+    for more information.\r\nAll parameters are required. If resourceId is not applicable
+    for a non-resource calendar, pass zero.\r\nFormat of the dateTimeTz field is 2018-10-30T10:00-5:00"
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/onsched-logo.png
+  humanURL: http://www.onsched.com
+  baseURL: https://api.onsched.com//
+  tags: API Provider, Bookings, Profiles, Schedules, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/onsched/consumerv1customersidplanlimitsserviceidresourceiddatetimetz-get-openapi.md
+- name: OnSched API - Returns a list of customer booking limits.
+  x-api-slug: consumerv1customersidplanlimitsserviceidresourceiddatetimetz-get
+  description: "The result returned is list of limit rules as defined by the subscribed
+    customer plan along with Booking Counts/Minutes\r\nThe results indicate the remaining
+    bookings count / minutes. Use the results in your app to determine if the customer
+    should continue booking.\r\nYou can enforce Limits in periods: Daily,Weekly,Monthly
+    and for maximum total limits. Maximum total limits is based on six months prior
+    to\r\nthe DateTimeTz and six months after the DateTimeTz. Daily, Weekly and Monthly
+    limits are based on the calculated period relative to the\r\nsubscription plan
+    start. Daily,Weekly and Monthly limits can be setup on a per interval basis e.g.
+    to biweekly, or daily every 10 days.\r\nSee customer plans setup in the Portal
+    for more information.\r\nAll parameters are required. If resourceId is not applicable
+    for a non-resource calendar, pass zero.\r\nFormat of the dateTimeTz field is 2018-10-30T10:00-5:00"
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/onsched-logo.png
+  humanURL: http://www.onsched.com
+  baseURL: https://api.onsched.com//
+  tags: API Provider, Bookings, Profiles, Schedules, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/onsched/consumerv1customersidplanlimitsserviceidresourceiddatetimetz-get-openapi.md
+- name: OnSched API - Returns a list of customer booking limits.
+  x-api-slug: consumerv1customersidplanlimitsserviceidresourceiddatetimetz-get
+  description: "The result returned is list of limit rules as defined by the subscribed
+    customer plan along with Booking Counts/Minutes\r\nThe results indicate the remaining
+    bookings count / minutes. Use the results in your app to determine if the customer
+    should continue booking.\r\nYou can enforce Limits in periods: Daily,Weekly,Monthly
+    and for maximum total limits. Maximum total limits is based on six months prior
+    to\r\nthe DateTimeTz and six months after the DateTimeTz. Daily, Weekly and Monthly
+    limits are based on the calculated period relative to the\r\nsubscription plan
+    start. Daily,Weekly and Monthly limits can be setup on a per interval basis e.g.
+    to biweekly, or daily every 10 days.\r\nSee customer plans setup in the Portal
+    for more information.\r\nAll parameters are required. If resourceId is not applicable
+    for a non-resource calendar, pass zero.\r\nFormat of the dateTimeTz field is 2018-10-30T10:00-5:00"
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/onsched-logo.png
+  humanURL: http://www.onsched.com
+  baseURL: https://api.onsched.com//
+  tags: API Provider, Bookings, Profiles, Schedules, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/onsched/consumerv1customersidplanlimitsserviceidresourceiddatetimetz-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://onenote.api.gallery.streamdata.io

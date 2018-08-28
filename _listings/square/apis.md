@@ -8,11 +8,217 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-squar
 x-kinRank: "9"
 x-alexaRank: "2433"
 tags: Dates
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/square/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Square Connect - Provides summary information for all payments taken by a
+    merchant or any of the merchant's mobile staff during a date range. Date ranges
+    cannot exceed one year in length. See Date ranges for details of inclusive and
+    exclusive dates.
+  x-api-slug: v1location-idpayments-get
+  description: Provides summary information for all payments taken by a merchant or
+    any of the merchant's mobile staff during a date range. Date ranges cannot exceed
+    one year in length. See Date ranges for details of inclusive and exclusive dates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/square/v1location-idpayments-get-openapi.md
+- name: Square Connect - Provides the details for all of a location's cash drawer
+    shifts during a date range. The date range you specify cannot exceed 90 days.
+  x-api-slug: v1location-idcashdrawershifts-get
+  description: Provides the details for all of a location's cash drawer shifts during
+    a date range. The date range you specify cannot exceed 90 days.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/square/v1location-idcashdrawershifts-get-openapi.md
+- name: Square Connect - Provides summary information for all payments taken by a
+    merchant or any of the merchant's mobile staff during a date range. Date ranges
+    cannot exceed one year in length. See Date ranges for details of inclusive and
+    exclusive dates.
+  x-api-slug: v1location-idpayments-get
+  description: Provides summary information for all payments taken by a merchant or
+    any of the merchant's mobile staff during a date range. Date ranges cannot exceed
+    one year in length. See Date ranges for details of inclusive and exclusive dates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/square/v1location-idpayments-get-openapi.md
+- name: Square Connect - Provides the details for all refunds initiated by a merchant
+    or any of the merchant's mobile staff during a date range. Date ranges cannot
+    exceed one year in length.
+  x-api-slug: v1location-idrefunds-get
+  description: Provides the details for all refunds initiated by a merchant or any
+    of the merchant's mobile staff during a date range. Date ranges cannot exceed
+    one year in length.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/square/v1location-idrefunds-get-openapi.md
+- name: Square Connect - Provides summary information for all deposits and withdrawals
+    initiated by Square to a merchant's bank account during a date range. Date ranges
+    cannot exceed one year in length.
+  x-api-slug: v1location-idsettlements-get
+  description: Provides summary information for all deposits and withdrawals initiated
+    by Square to a merchant's bank account during a date range. Date ranges cannot
+    exceed one year in length.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/square/v1location-idsettlements-get-openapi.md
+- name: Square Connect - Provides the details for all of a location's cash drawer
+    shifts during a date range. The date range you specify cannot exceed 90 days.
+  x-api-slug: v1location-idcashdrawershifts-get
+  description: Provides the details for all of a location's cash drawer shifts during
+    a date range. The date range you specify cannot exceed 90 days.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/square/v1location-idcashdrawershifts-get-openapi.md
+- name: Square Connect - Provides summary information for all payments taken by a
+    merchant or any of the merchant's mobile staff during a date range. Date ranges
+    cannot exceed one year in length. See Date ranges for details of inclusive and
+    exclusive dates.
+  x-api-slug: v1location-idpayments-get
+  description: Provides summary information for all payments taken by a merchant or
+    any of the merchant's mobile staff during a date range. Date ranges cannot exceed
+    one year in length. See Date ranges for details of inclusive and exclusive dates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/square/v1location-idpayments-get-openapi.md
+- name: Square Connect - Provides the details for all refunds initiated by a merchant
+    or any of the merchant's mobile staff during a date range. Date ranges cannot
+    exceed one year in length.
+  x-api-slug: v1location-idrefunds-get
+  description: Provides the details for all refunds initiated by a merchant or any
+    of the merchant's mobile staff during a date range. Date ranges cannot exceed
+    one year in length.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/square/v1location-idrefunds-get-openapi.md
+- name: Square Connect - Provides summary information for all deposits and withdrawals
+    initiated by Square to a merchant's bank account during a date range. Date ranges
+    cannot exceed one year in length.
+  x-api-slug: v1location-idsettlements-get
+  description: Provides summary information for all deposits and withdrawals initiated
+    by Square to a merchant's bank account during a date range. Date ranges cannot
+    exceed one year in length.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/square/v1location-idsettlements-get-openapi.md
+- name: Square Connect - Provides summary information for all deposits and withdrawals
+    initiated by Square to a merchant's bank account during a date range. Date ranges
+    cannot exceed one year in length.
+  x-api-slug: v1location-idsettlements-get
+  description: Provides summary information for all deposits and withdrawals initiated
+    by Square to a merchant's bank account during a date range. Date ranges cannot
+    exceed one year in length.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/square/v1location-idsettlements-get-openapi.md
+- name: Square Connect - Provides the details for all refunds initiated by a merchant
+    or any of the merchant's mobile staff during a date range. Date ranges cannot
+    exceed one year in length.
+  x-api-slug: v1location-idrefunds-get
+  description: Provides the details for all refunds initiated by a merchant or any
+    of the merchant's mobile staff during a date range. Date ranges cannot exceed
+    one year in length.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/square/v1location-idrefunds-get-openapi.md
+- name: Square Connect - Provides summary information for all payments taken by a
+    merchant or any of the merchant's mobile staff during a date range. Date ranges
+    cannot exceed one year in length. See Date ranges for details of inclusive and
+    exclusive dates.
+  x-api-slug: v1location-idpayments-get
+  description: Provides summary information for all payments taken by a merchant or
+    any of the merchant's mobile staff during a date range. Date ranges cannot exceed
+    one year in length. See Date ranges for details of inclusive and exclusive dates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/square/v1location-idpayments-get-openapi.md
+- name: Square Connect - Provides the details for all of a location's cash drawer
+    shifts during a date range. The date range you specify cannot exceed 90 days.
+  x-api-slug: v1location-idcashdrawershifts-get
+  description: Provides the details for all of a location's cash drawer shifts during
+    a date range. The date range you specify cannot exceed 90 days.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dates/master/_listings/square/v1location-idcashdrawershifts-get-openapi.md
 x-common:
 - type: x-website
   url: http://square.com
